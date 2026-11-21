@@ -1,0 +1,12 @@
+{
+  "name": "property-magic-link-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/magic_link_property.ts",
+    "test": "node --experimental-strip-types src/magic_link_property.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.25.0" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.8.0" }
+}
